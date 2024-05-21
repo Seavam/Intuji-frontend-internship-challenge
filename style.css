@@ -5,7 +5,7 @@
 }
 
 .Section-p1{
-    margin: 38px 117px 0 121px;
+    padding: 20px 80px;
 }
 
 
@@ -14,9 +14,9 @@
 
 
 #header {
-        padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     background: linear-gradient(90deg,#C9E7F2 35%, #62BADA 100%);
+    position: relative;
 }
 .navbar_container{
     display: flex;
@@ -53,4 +53,129 @@
     padding: 16px 36px;
     background: #4F46BA;
 }
+.main_content{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    position: relative;
+}
+.main_content h1{
+    padding-bottom: 20px;
+}
+.main_content h4{
+    padding-bottom: 20px;
+}
+.play_button{
+    display: flex;
+    align-items: center;
+    background: none;
+    outline: none;
+    border: none;
+    color: #3734A9;
+    gap: 12px;
+}
 
+.navbar select{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.btn_group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn_group button:first-child{
+    background: #4F46BA;
+    border-radius: 12px;
+    padding: 15px 25px ;
+    text-align: center;
+    border: none;
+    color: #fff;
+    height: max-content;
+}
+
+.container_img img{
+    height: 600px;
+    margin-bottom: -25px;
+    
+}
+
+.content_group1 h1{
+    font-size: 60px;
+    font-weight:bold;
+}
+
+.content_group1 h4{
+    font-size: 20px;
+    font-weight: 100 ;
+}
+.check_container span{
+    color: #757095;
+    padding-left: 10px;
+}
+.check_circle{
+    color: #3734A9;
+}
+.check_container{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.blackdot1 img{
+    height: 80px;
+}
+.blackdot1{
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+}
+
+.blackdot2{
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+
+.purplecircle{
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+
+/* Banner */
+
+.banner{
+    background: #F5F6F8;
+}
+.banner p{
+    text-align: center;
+    margin: 20px 0;
+}
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-content {
+    display: flex;
+    width: 100%;
+    animation: scroll 10s linear infinite;
+}
+
+.scroll-content img {
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
