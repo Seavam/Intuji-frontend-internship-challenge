@@ -191,6 +191,18 @@ span {
   margin-top: 50px;
 }
 
+.automate h1{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+
+.automate p{
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
 .portfolio_container h1 {
   padding-bottom: 20px;
 }
@@ -247,6 +259,10 @@ span {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
+}
+
+.receive{
+  margin-top: 4 0px;
 }
 
 .main_containner {
@@ -542,10 +558,336 @@ span {
 .oval_orange{
   position: absolute;
   right: 0;
-  
 }
 
 
+/* testimonials */
+
+
+.testimonials-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.testimonials-section .testimonial-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}   
+.testimonials-section .testimonial-heading h1{
+  font-size: 71px;
+  font-weight: 800;
+  line-height: 66px;
+}
+
+.testimonials-section .testimonial-heading p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.testimonials-section .card{
+  height: 400px;
+  min-width: 680px;
+  display: flex;
+  padding: 60px 30px;
+  border-radius: 10px;
+  border: #CFCFCF 1px solid;
+  position: relative;
+}
+
+.testimonials-section .card .testimonial{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonials-section .card h1{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.testimonials-section .card p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.testimonials-section .card .quote{
+  position: absolute;
+  height: 50px;
+  top: -25px;
+}
+
+.testimonials-section .horizental-slider{
+  display: flex;
+  gap: 30px;
+  overflow-x: scroll;
+  padding-top: 30px;
+}
+.testimonials-section .horizental-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonials-section .hill-stroke{
+  position: absolute;
+  height: 100px;
+  top: 50px;
+  right: 300px;
+}
+
+
+
+/* blog */
+
+.blog{
+  margin-top: 50px;
+
+}
+
+.recent_blog h1{
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+.blog_body p{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+
+}
+
+.blog_body h1{
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 36px;
+  padding-bottom: 35px;
+}
+
+.blog_body{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.blog_body img{
+  width: 500px;
+  height: 300px;
+}
+
+.blog_last_section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.blog_last_section p{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  padding-bottom: 10px;
+}
+
+.blog_last_section h1{
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 36px;
+  padding-bottom: 50px;
+}
+
+.blog_last_section img{
+  width: 380px;
+  height: 200px;
+}
+.best_practices{
+  padding: 10px 20px;
+}
+
+
+.get_started_container{
+  display: flex;
+  flex-direction: column;
+  background: #3734A9;
+  align-items: center;
+  border-radius: 10px;
+  position:relative;
+  padding:100px ;
+}
+
+.get_started_container img:nth-child(3){
+  position: absolute;
+  left: 30%;
+  bottom: 20%;
+}
+
+.get_started_container img:nth-child(4){
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.get_started_container img:nth-child(5){
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+
+.get_started_container img:nth-child(6){
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.get_started_container img:nth-child(7){
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+
+.get_started_container h1{
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+
+.button{
+  background: #FF7F5C;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-align: center;color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* faq */
+
+.faq{
+  display: flex;
+  flex-direction: column;
+  margin:30px 0 30px 0 ;
+}
+.faq h1{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.more_question{
+  display: flex;
+}
+
+.plus{
+  display: flex;
+}
+
+.question_banner{
+ display: flex;
+ flex-direction: row;
+ gap: 50px;
+ align-items: center;
+}
+
+.morequestion_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #CFCFCF;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 35%;
+  height: 90%
+}
+
+.morequestion_container span{
+  font-weight: 500;
+  font-size: 22px;
+
+}
+
+.morequestion_container p{
+  padding: 10px;
+}
+
+.morequestion_container button{
+  border-radius: 0;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 65%;
+  margin: 20px auto;
+  border-radius: 4px;
+
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+
+.accordion-item h2{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.accordion-header {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border: none;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+  background-color: #e2e2e2;
+}
+
+.accordion-content {
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+  padding: 0 15px;
+  background-color: #fafafa;
+}
+
+.accordion-content p {
+  padding: 15px 0;
+  margin: 0;
+}
+.faq_container{
+  position: relative;
+}
+.outside_art1{
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+.outside_art2{
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
 
 
 
@@ -590,3 +932,50 @@ footer .copyright{
   width: 100%;
   text-align: center;
 }
+
+
+.form p{
+  color: #181433;
+  opacity: 80%;
+  padding-top: 20px;
+}
+
+.normal{
+  background: #3734A9;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.your_email{
+  background: #EEEEFF;
+  padding: 10px 20px;
+  color: #181433;
+  opacity: 50%;
+  border: none;
+}
+
+.copyright p{
+  color: #181433;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.copyright hr{
+  opacity: 50%;
+}
+
+.col h3{
+  color: #757095;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 10px;
+}
+
+.icon{
+  display: flex;
+  gap: 10px;
+}
+
+
