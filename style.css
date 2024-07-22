@@ -57,6 +57,7 @@ span {
   border: none;
   padding: 16px 36px;
   background: #4f46ba;
+  border-radius: 20px;
 }
 .main_content {
   display: flex;
